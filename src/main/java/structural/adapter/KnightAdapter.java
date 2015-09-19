@@ -33,4 +33,8 @@ public class KnightAdapter implements Knight, Cloneable {
 	return knight.toString();
     }
 
+    public Integer getDamage() {
+	return 0;
+    }
+
 }

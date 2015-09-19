@@ -16,4 +16,8 @@ public class HolyKnight extends AbstractKnight implements Knight {
 	return "HolyKnight [getName()=" + getName() + ", getWeapon()=" + getWeapon() + "]";
     }
 
+    @Override
+    public Integer getDamage() {
+	return super.getDamage() * 1;
+    }
 }

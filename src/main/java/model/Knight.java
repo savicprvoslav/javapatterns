@@ -6,5 +6,7 @@ public interface Knight {
     void setWeapon(KnightWeapon knightWeapon);
 
     Knight cloneKnight() throws CloneNotSupportedException;
+    
+    Integer getDamage();
 
 }

@@ -14,4 +14,8 @@ public class AbstractKnight implements Cloneable {
     public Knight cloneKnight() throws CloneNotSupportedException {
 	return (Knight) super.clone();
     }
+
+    public Integer getDamage() {
+	return getWeapon().getDamage();
+    }
 }

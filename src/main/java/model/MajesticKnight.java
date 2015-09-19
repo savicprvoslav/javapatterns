@@ -21,4 +21,9 @@ public class MajesticKnight extends AbstractKnight implements Knight, Cloneable 
 	return super.clone();
     }
 
+    @Override
+    public Integer getDamage() {
+	return super.getDamage() * 3;
+    }
+
 }
