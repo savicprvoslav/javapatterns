@@ -15,17 +15,17 @@ public class Main {
 	Knight knight1 = new HolyKnight();
 	knight1.setWeapon(KnightWeapon.DOUBLE_SWORD);
 
-	DragonSlayerHandler dragonSlayerHandler1 = new DragonSlayerAgencyImpl(null, knight1);
+	DragonSlayer dragonSlayerHandler1 = new DragonSlayerRepresentitive(null, knight1);
 
 	Knight knight2 = new HolyKnight();
 	knight2.setWeapon(KnightWeapon.SWORD);
 
-	DragonSlayerHandler dragonSlayerHandler2 = new DragonSlayerAgencyImpl(dragonSlayerHandler1, knight2);
+	DragonSlayer dragonSlayerHandler2 = new DragonSlayerRepresentitive(dragonSlayerHandler1, knight2);
 
 	Knight knight3 = new HolyKnight();
 	knight3.setWeapon(KnightWeapon.FAITH);
 
-	DragonSlayerHandler root = new DragonSlayerAgencyImpl(dragonSlayerHandler2, knight3);
+	DragonSlayer root = new DragonSlayerRepresentitive(dragonSlayerHandler2, knight3);
 
 	if (root.attack(18)) {
 	    System.out.println("Dragon way slayed!");

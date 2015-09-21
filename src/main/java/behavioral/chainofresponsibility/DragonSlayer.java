@@ -2,7 +2,7 @@ package behavioral.chainofresponsibility;
 
 import model.Knight;
 
-public interface DragonSlayerHandler {
+public interface DragonSlayer {
 
     Knight getKnight();
 
