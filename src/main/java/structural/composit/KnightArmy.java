@@ -42,4 +42,27 @@ public class KnightArmy implements Knight, Cloneable {
 
 	return totalDamage;
     }
+
+    public void readQuest(String questDetails) {
+
+    }
+
+    public Double getArmor() {
+	Double armorTotal = 0d;
+	for (Knight knight : knights) {
+	    armorTotal += knight.getArmor();
+	}
+	return armorTotal;
+    }
+
+    public void reduceArmor(Double reduceValue) {
+	Double perKnight = reduceValue / knights.size();
+	for (Knight knight : knights) {
+	    knight.reduceArmor(perKnight);
+	}
+    }
+
+    public KnightWeapon getWeapon() {
+	return null;
+    }
 }

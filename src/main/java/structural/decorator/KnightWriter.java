@@ -29,4 +29,19 @@ public class KnightWriter implements Knight {
 	return knight.getDamage();
     }
 
+    public void readQuest(String questDetails) {
+	knight.readQuest(questDetails);
+    }
+
+    public Double getArmor() {
+	return knight.getArmor();
+    }
+
+    public void reduceArmor(Double reduceValue) {
+	System.out.println("Knight armor has been damaged!!");
+	knight.reduceArmor(reduceValue);
+    }
+    public KnightWeapon getWeapon() {
+	return knight.getWeapon();
+    }
 }

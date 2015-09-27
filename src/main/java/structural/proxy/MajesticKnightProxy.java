@@ -32,4 +32,20 @@ public class MajesticKnightProxy implements Knight {
 	return getKnight().getDamage();
     }
 
+    public void readQuest(String questDetails) {
+	getKnight().readQuest(questDetails);
+    }
+
+    public Double getArmor() {
+	return getKnight().getArmor();
+    }
+
+    public void reduceArmor(Double reduceValue) {
+	getKnight().reduceArmor(reduceValue);
+    }
+
+    public KnightWeapon getWeapon() {
+	return getKnight().getWeapon();
+    }
+
 }

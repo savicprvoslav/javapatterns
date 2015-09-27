@@ -37,4 +37,20 @@ public class KnightAdapter implements Knight, Cloneable {
 	return 0;
     }
 
+    public void readQuest(String questDetails) {
+
+    }
+
+    public Double getArmor() {
+	return 0d;
+    }
+
+    public void reduceArmor(Double reduceValue) {
+	// Nothing here
+    }
+
+    public KnightWeapon getWeapon() {
+	return null;
+    }
+
 }

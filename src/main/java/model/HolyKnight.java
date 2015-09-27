@@ -5,7 +5,7 @@ package model;
  * @author prvoslav
  *
  */
-public class HolyKnight extends AbstractKnight implements Knight {
+public class HolyKnight extends AbstractKnight {
 
     public String getName() {
 	return "Holy Knight is my name!";
@@ -20,4 +20,5 @@ public class HolyKnight extends AbstractKnight implements Knight {
     public Integer getDamage() {
 	return super.getDamage() * 1;
     }
+
 }

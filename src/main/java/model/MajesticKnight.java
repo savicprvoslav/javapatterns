@@ -5,7 +5,7 @@ package model;
  * @author prvoslav
  *
  */
-public class MajesticKnight extends AbstractKnight implements Knight, Cloneable {
+public class MajesticKnight extends AbstractKnight {
 
     public String getName() {
 	return "Majestic is my fathers name and so is mine!";
