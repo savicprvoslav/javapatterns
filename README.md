@@ -24,11 +24,12 @@ Join in our quest of saving the world using nothing but emagination and java.
   }
 }
  ```
- In the main method we have
- ```
+ In the main method we have :
+```
   Factory factory = FactoryProducer.getFactory(KnightFamily.MAJESTIC);
-	Knight knight = factory.getKnight();// Knight is MajesticKnight 
-	```
+	Knight knight = factory.getKnight();// Knight is MajesticKnight
+```
+
 ## Builder
 ## Factory method
 ## Prototype
