@@ -19,10 +19,17 @@ public class SingletonKnight {
 	return count;
     }
 
+    /**
+     * Private contructor
+     */
     private SingletonKnight() {
 
     }
 
+    /**
+     * public static getInstance method used to obtain the instance of this class
+     * 
+     */
     public static SingletonKnight getIntance() {
 	if (knight == null) {
 	    knight = new SingletonKnight();

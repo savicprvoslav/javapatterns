@@ -11,14 +11,21 @@ import model.MajesticKnight;
  */
 public class Main {
 
-    public static void main(String[] args) {
-	final String prototypeMajestic = "majestic";
+    final static String prototypeMajestic = "majestic";
+
+    public static void initPrototype() {
 	PrototypeFactory.addPrototype(prototypeMajestic, new MajesticKnight());
 	PrototypeFactory.addPrototype("holy", new HolyKnight());
+    }
 
+    public static void main(String[] args) {
+	//init prototype
+	initPrototype();
+
+	//get prototype
 	PrototypeFactory factory = new PrototypeFactory();
 	Knight knight = factory.getPrototype(prototypeMajestic);
-	System.out.println(knight);
+	System.out.println(knight.getName());
     }
 
 }

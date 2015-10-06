@@ -6,21 +6,24 @@ package creational.singleton;
  *
  *         Singleton pattern test.
  * 
- *         In this test we are going to call singleton method twice and increase
- *         count by two.
+ *         Calling singleton method twice increasing count by two.
  *
  */
 public class Main {
 
     public static void main(String[] args) {
+	// remember in countStart
 	Integer countStart = SingletonKnight.getIntance().getCount();
-
+	
+	// call incrase
 	SingletonKnight.getIntance().increaseCount();// count is one
+	// call increase
 	SingletonKnight.getIntance().increaseCount();// count is two
-
+	
+	// remember in countEnd
 	Integer countEnd = SingletonKnight.getIntance().getCount();
 
-	System.out.println(countStart + " " + countEnd);// 0 2
+	System.out.println("Start : " + countStart + ", End: " + countEnd);// 0 2
     }
 
 }
