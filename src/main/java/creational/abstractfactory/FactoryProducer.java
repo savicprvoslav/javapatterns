@@ -16,7 +16,7 @@ public class FactoryProducer {
 	} else if (KnightFamily.MAJESTIC.equals(family)) {
 	    return new MajesticFactory();
 	}
-	//thow an exception here
+	//throw an exception here
 	return null;
     }
 }

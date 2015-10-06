@@ -13,5 +13,4 @@ public class MajesticFactory implements Factory {
     public Knight getKnight() {
 	return new MajesticKnight();
     }
-
 }
