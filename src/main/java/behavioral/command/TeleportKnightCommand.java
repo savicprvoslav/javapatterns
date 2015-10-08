@@ -5,6 +5,8 @@ import model.Knight;
 /**
  * 
  * @author prvoslav
+ * 
+ * Implementation of command , allowing knight to teleport to destination
  *
  */
 public class TeleportKnightCommand implements Command {

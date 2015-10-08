@@ -5,6 +5,8 @@ import model.HolyKnight;
 /**
  * 
  * @author prvoslav
+ * 
+ *  Implementation of holy knight with memento ability
  *
  */
 public class HolyKnightMemento extends HolyKnight implements MementoKnight {

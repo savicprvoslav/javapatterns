@@ -5,6 +5,8 @@ import model.Knight;
 /**
  * 
  * @author prvoslav
+ * 
+ * Knight with extra ability to create a memento and receive one
  *
  */
 public interface MementoKnight extends Knight {

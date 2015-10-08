@@ -8,6 +8,8 @@ import model.HolyKnight;
 /**
  * 
  * @author prvoslav
+ * 
+ * Implementation of observer knight, it calls all observers when armor is reduced
  *
  */
 public class ObserverHolyKnight extends HolyKnight implements KnightObserver {

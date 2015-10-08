@@ -13,6 +13,9 @@ public abstract class AbstractDragonSlayerRepresentative implements DragonSlayer
 	this.nextRep = nextRep;
     }
 
+    /**
+     * Action method that calls next representative 
+     */
     public Boolean attack(Integer minDamage) {
 	if (nextRep != null) {
 	    return nextRep.attack(minDamage);

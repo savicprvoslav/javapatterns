@@ -2,6 +2,12 @@ package behavioral.mediator;
 
 import model.HolyKnight;
 
+/**
+ * 
+ * @author prvoslav
+ * 
+ * Implementation of HolyKnight with MediatorKnight quest abilities
+ */
 public class MediatorHolyKnight extends HolyKnight implements MediatorKnight {
 
     private MedevilPostOffice medevilPostOffice = null;

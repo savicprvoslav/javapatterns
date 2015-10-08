@@ -1,5 +1,12 @@
 package behavioral.observer;
 
+/**
+ * 
+ * @author prvoslav
+ *
+ * Observer pattern test.
+ *
+ */
 public class Main {
 
     public static void main(String[] args) {
@@ -9,7 +16,7 @@ public class Main {
 	knight.addObserver(observer);
 	
 	knight.reduceArmor(3.4);
-
+	//Observer : Update armor UI 96.6
     }
 
 }

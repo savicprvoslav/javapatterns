@@ -7,6 +7,10 @@ import model.KnightWeapon;
 /**
  * 
  * @author prvoslav
+ * 
+ *         Main class that tests the chain of responsibility by creating a chain
+ *         of dragon slayer representatives and asking the head to attack. Chain
+ *         communicates between elements to find appropriate solution.
  *
  */
 public class Main {

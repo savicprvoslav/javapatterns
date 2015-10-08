@@ -5,6 +5,13 @@ import java.util.Map;
 
 import model.Knight;
 
+/**
+ * 
+ * @author prvoslav
+ *
+ *         Central point where Knight can send a quest to other knight, all
+ *         knights have reference to this central point ( mediator)
+ */
 public class MedevilPostOffice {
 
     private Map<Integer, Knight> medevilAddressBook = new HashMap<Integer, Knight>();

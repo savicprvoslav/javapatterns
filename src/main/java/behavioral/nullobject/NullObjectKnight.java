@@ -6,13 +6,17 @@ import model.KnightWeapon;
 /**
  * 
  * @author prvoslav
+ * 
+ *         NullObject pattern demonstration. THis is how to create a knight good
+ *         for nothing :), a knight that does not do anything. This is
+ *         especially use full when we do not want to have null attributes, we
+ *         can just pass a nullObject.
  *
  */
 public class NullObjectKnight implements Knight {
 
     public String getName() {
-
-	return null;
+	return "";
     }
 
     public void setWeapon(KnightWeapon knightWeapon) {
@@ -39,5 +43,4 @@ public class NullObjectKnight implements Knight {
 
     public void reduceArmor(Double reduceValue) {
     }
-
 }

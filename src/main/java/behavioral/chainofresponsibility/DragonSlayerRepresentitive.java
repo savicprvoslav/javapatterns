@@ -3,9 +3,13 @@ package behavioral.chainofresponsibility;
 import model.Knight;
 
 /**
- * Dragon slayer agency with one knight that anyone can rent to slay a dragon
+ * Dragon slayer agency with one knight that anyone can rent to slay a dragon,
+ * in case that dragon is to strong it asks next rep to help out. Finding the
+ * right knight is the ultimate goal
  * 
- * @author prvoslav Chain of responsibility
+ * @author prvoslav
+ * 
+ *         Chain of responsibility
  */
 public class DragonSlayerRepresentitive extends AbstractDragonSlayerRepresentative {
 
