@@ -6,6 +6,8 @@ import model.KnightWeapon;
 /**
  * 
  * @author prvoslav
+ * 
+ * Knight adapter adapts the OldKnight and allows developers to use this class as it is knight
  *
  */
 public class KnightAdapter implements Knight, Cloneable {

@@ -10,7 +10,7 @@ public class MajesticKnightProxy implements Knight {
 
     private Knight getKnight() {
 	if (knight == null) {
-	    System.out.println("Create knight");
+	    System.out.println("On Request knight creation ...");
 	    knight = new MajesticKnight();
 	}
 	return knight;

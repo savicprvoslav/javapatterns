@@ -3,6 +3,8 @@ package structural.adapter;
 /**
  * 
  * @author prvoslav
+ * 
+ * Old knight that does not implement Knight interface there fore it can not be used correctly
  *
  */
 public class OldKnight {

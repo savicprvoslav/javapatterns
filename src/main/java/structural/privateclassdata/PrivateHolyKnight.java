@@ -7,6 +7,8 @@ import model.KnightWeapon;
 /**
  * 
  * @author prvoslav
+ * 
+ * Private class data that hides the Knight and limits its access
  *
  */
 public class PrivateHolyKnight {

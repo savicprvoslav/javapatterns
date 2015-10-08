@@ -3,6 +3,13 @@ package structural.decorator;
 import model.Knight;
 import model.KnightWeapon;
 
+/**
+ * 
+ * @author prvoslav
+ *
+ * Knight Writer decorator, decorates by writing a knight story of life.
+ * 
+ */
 public class KnightWriter implements Knight {
 
     private Knight knight;

@@ -6,8 +6,7 @@ import model.MajesticKnight;
 
 /**
  * 
- * We have a knight writer decorator that writes everything
- *         that he does :)
+ * We have a knight writer decorator that writes his story
  */
 public class Main {
 
@@ -21,7 +20,6 @@ public class Main {
 	// Knight has given his weapon.
 	// Knight has been asked for the name
 	// Majestic is my fathers name and so is mine!
-
     }
 
 }
