@@ -214,6 +214,7 @@ public class MajesticKnightProxy implements Knight {
 ```
 
 # Behavioral patterns
+
 ## Command
 To demonstrate command pattern we have the interface Command with the implementation TeleportKnightCommand, that telports Knights all over the country.
 
@@ -264,6 +265,18 @@ When new quest arrives from the king we need to find the knight to handle this q
 Knights requests are handled by knight agencies. When quest arrives it goes to the first agency in the street, if this agency does not have a knight to handle the quest is passed down the street until either is it accepted or end of the street is reached.
 
 
+## Strategy pattern
 
+Each knight has especial response when he is hit and his armor state is reduced , for this I have implemented a strategy that each knight can use for this case :).
+
+We have two strategies ArmorResponseStrategy and GodlyArmorResponseStrategy for those that call for Gods help.
+```
+       StrategyKnight knight = new StrategyHolyKnight();
+	knight.setStrategy(new ArmorResponseStrategy());
+	knight.reduceArmor(0.1);//Aghhh !
+
+	knight.setStrategy(new GodlyArmorResponseStrategy());
+	knight.reduceArmor(0.1);//God help me !
+```
 
 I hope that you have found this examples helpfull, if you have any suggestions let me know. 
